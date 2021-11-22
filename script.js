@@ -170,7 +170,11 @@ L.control.scale({position: "bottomright", imperial: false}).addTo(map);
 function activatePopup(){
     document.getElementById("map").style.display = "none";
     document.getElementById("popup").style.display = "block";
+}
 
+function deactivatePopup(){
+    document.getElementById("map").style.display = "block";
+    document.getElementById("popup").style.display = "none"; 
 }
 
 function onClickMacAttackMain(){
