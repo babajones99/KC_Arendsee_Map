@@ -129,7 +129,7 @@ function onClickObject(id, e) {
     }
 
     if(currObj.ma != null){
-        newHtml+= `<h3>Konfis: ${currObj.ma}</h3>`
+        newHtml+= `<h3>Mitarbeitende: ${currObj.ma}</h3>`
     }
     
     for (let i = 0; i < currObj.img.length; i++) {
