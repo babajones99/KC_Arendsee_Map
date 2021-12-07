@@ -3,6 +3,10 @@
 var markers = L.layerGroup();
 L.marker([52.88675, 11.50507]).bindPopup('Hier ist unser Konfi-Camp').addTo(markers);
 
+var pois = L.layerGroup();
+L.marker([52.89111, 11.50107], {color: "red"}).bindPopup('Das Strandbad, unsere Bademöglichkeit').addTo(pois);
+L.marker([52.88314, 11.50189], {color: "red"}).bindPopup('Der nächste Supermarkt').addTo(pois);
+
 var sleepRooms = L.layerGroup();
 var importantPlaces = L.layerGroup();
 var konfiCampPlaces = L.layerGroup();
@@ -93,7 +97,7 @@ var base = L.tileLayer(mbUrl, { id: 'osm-bright', attribution: mbAttr, apiKey: '
 var map = L.map('map', {
     center: [52.88675, 11.50507],
     zoom: 18,
-    layers: [base, sleepRooms, importantPlaces, konfiCampPlaces]
+    layers: [base, sleepRooms, importantPlaces, konfiCampPlaces, pois]
 });
 var overlays = {
     "Unterbringungen": sleepRooms,
@@ -131,6 +135,9 @@ map.on('zoomend', function () {
         if (map.hasLayer(importantPlaces)) {
             map.removeLayer(importantPlaces);
         }
+        if (map.hasLayer(konfiCampPlaces)) {
+            map.removeLayer(konfiCampPlaces);
+        }
         if (!map.hasLayer(markers)) {
             map.addLayer(markers);
         }
@@ -141,6 +148,9 @@ map.on('zoomend', function () {
         }
         if (!map.hasLayer(importantPlaces)) {
             map.addLayer(importantPlaces);
+        }
+        if (!map.hasLayer(konfiCampPlaces)) {
+            map.addLayer(konfiCampPlaces);
         }
         if (map.hasLayer(markers)) {
             map.removeLayer(markers);
