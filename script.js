@@ -1,28 +1,62 @@
-var sleepRooms = L.layerGroup();
-L.circle([52.88666, 11.50623], 5, {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5
-}).bindPopup("I am a circle.").addTo(sleepRooms);
+
 
 var markers = L.layerGroup();
 L.marker([52.88675, 11.50507]).bindPopup('Hier ist unser Konfi-Camp').addTo(markers);
 
+var sleepRooms = L.layerGroup();
 var importantPlaces = L.layerGroup();
 
 // Loop through the info data
 for (var i = 0; i < info.places.length; i++) {
     var place = info.places[i];
 
-    // Create and save a reference to each marker
-    L.polygon(place.latLng, {
-        color: place.color,
-        headline: place.headline,
-        description: place.description,
-        img: place.img,
-        konfis: place.konfis,
-        ma: place.ma
-    }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(importantPlaces);
+    //Add building to different layer depending on the type
+    switch (place.color) {
+        case "red":
+            // Create and save a reference to each marker
+            L.polygon(place.latLng, {
+                color: place.color,
+                headline: place.headline,
+                description: place.description,
+                img: place.img,
+                konfis: place.konfis,
+                ma: place.ma
+            }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(importantPlaces);
+            break;
+        case "yellow":
+            // Create and save a reference to each marker
+            L.polygon(place.latLng, {
+                color: place.color,
+                headline: place.headline,
+                description: place.description,
+                img: place.img,
+                konfis: place.konfis,
+                ma: place.ma
+            }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(sleepRooms);
+            break;
+        case "blue":
+            // Create and save a reference to each marker
+            L.polygon(place.latLng, {
+                color: place.color,
+                headline: place.headline,
+                description: place.description,
+                img: place.img,
+                konfis: place.konfis,
+                ma: place.ma
+            }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(sleepRooms);
+            break;
+        default:
+            // Create and save a reference to each marker
+            L.polygon(place.latLng, {
+                color: place.color,
+                headline: place.headline,
+                description: place.description,
+                img: place.img,
+                konfis: place.konfis,
+                ma: place.ma
+            }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(importantPlaces);
+            break;
+    }
 }
 
 
@@ -46,7 +80,7 @@ var base = L.tileLayer(mbUrl, { id: 'osm-bright', attribution: mbAttr, apiKey: '
 
 var map = L.map('map', {
     center: [52.88675, 11.50507],
-    zoom: 17,
+    zoom: 18,
     layers: [base, sleepRooms, importantPlaces]
 });
 var overlays = {
@@ -63,9 +97,9 @@ var legend = L.control({ position: "bottomleft" });
 legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += "<h4>Legende</h4>";
-    div.innerHTML += '<i style="background: #477AC2"></i><span>Water</span><br>';
-    div.innerHTML += '<i style="background: #448D40"></i><span>Forest</span><br>';
-    div.innerHTML += '<i style="background: #E6E696"></i><span>Land</span><br>';
+    div.innerHTML += '<i style="background: yellow"></i><span>Unterkünfte</span><br>';
+    div.innerHTML += '<i style="background: red"></i><span>Gruppenräume</span><br>';
+    div.innerHTML += '<i style="background: blue"></i><span>Sanitäranlagen</span><br>';
     div.innerHTML += '<i style="background: #E8E6E0"></i><span>Residential</span><br>';
     div.innerHTML += '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
 
@@ -122,16 +156,16 @@ function onClickObject(id, e) {
     document.getElementById("popupHeadline").innerHTML = currObj.headline;
     let newHtml = "";
 
-    newHtml+= `<h3>${currObj.description}</h3>`
+    newHtml += `<h3>${currObj.description}</h3>`
 
-    if(currObj.konfis != null){
-        newHtml+= `<h3>Konfis: ${currObj.konfis}</h3>`
+    if (currObj.konfis != null) {
+        newHtml += `<h3>Konfis: ${currObj.konfis}</h3>`
     }
 
-    if(currObj.ma != null){
-        newHtml+= `<h3>Mitarbeitende: ${currObj.ma}</h3>`
+    if (currObj.ma != null) {
+        newHtml += `<h3>Mitarbeitende: ${currObj.ma}</h3>`
     }
-    
+
     for (let i = 0; i < currObj.img.length; i++) {
         newHtml += `<img src="${currObj.img[i]}" class="imgPopup">`
     }
