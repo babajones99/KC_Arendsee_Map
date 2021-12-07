@@ -5,6 +5,7 @@ L.marker([52.88675, 11.50507]).bindPopup('Hier ist unser Konfi-Camp').addTo(mark
 
 var sleepRooms = L.layerGroup();
 var importantPlaces = L.layerGroup();
+var konfiCampPlaces = L.layerGroup();
 
 // Loop through the info data
 for (var i = 0; i < info.places.length; i++) {
@@ -45,6 +46,17 @@ for (var i = 0; i < info.places.length; i++) {
                 ma: place.ma
             }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(sleepRooms);
             break;
+        case "black":
+            // Create and save a reference to each marker
+            L.polygon(place.latLng, {
+                color: place.color,
+                headline: place.headline,
+                description: place.description,
+                img: place.img,
+                konfis: place.konfis,
+                ma: place.ma
+            }).bindTooltip(place.headline,).on('click', onClickObject.bind(null, i)).addTo(konfiCampPlaces);
+            break;
         default:
             // Create and save a reference to each marker
             L.polygon(place.latLng, {
@@ -81,11 +93,12 @@ var base = L.tileLayer(mbUrl, { id: 'osm-bright', attribution: mbAttr, apiKey: '
 var map = L.map('map', {
     center: [52.88675, 11.50507],
     zoom: 18,
-    layers: [base, sleepRooms, importantPlaces]
+    layers: [base, sleepRooms, importantPlaces, konfiCampPlaces]
 });
 var overlays = {
     "Unterbringungen": sleepRooms,
-    "Wichtige Orte": importantPlaces
+    "Gemeinschaftsorte": importantPlaces,
+    "Konfi-Camp Orte": konfiCampPlaces
 };
 
 L.control.layers(null, overlays).addTo(map);
@@ -98,9 +111,9 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += "<h4>Legende</h4>";
     div.innerHTML += '<i style="background: yellow"></i><span>Unterkünfte</span><br>';
-    div.innerHTML += '<i style="background: red"></i><span>Gruppenräume</span><br>';
+    div.innerHTML += '<i style="background: red"></i><span>Gemeinschaftsräume/Orte</span><br>';
     div.innerHTML += '<i style="background: blue"></i><span>Sanitäranlagen</span><br>';
-    div.innerHTML += '<i style="background: #E8E6E0"></i><span>Residential</span><br>';
+    div.innerHTML += '<i style="background: black"></i><span>Konfi-Camp Orte</span><br>';
     div.innerHTML += '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
 
     return div;
