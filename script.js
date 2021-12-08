@@ -118,8 +118,6 @@ legend.onAdd = function (map) {
     div.innerHTML += '<i style="background: red"></i><span>Gemeinschaftsräume/Orte</span><br>';
     div.innerHTML += '<i style="background: blue"></i><span>Sanitäranlagen</span><br>';
     div.innerHTML += '<i style="background: black"></i><span>Konfi-Camp Orte</span><br>';
-    div.innerHTML += '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
-
     return div;
 };
 

@@ -1,9 +1,10 @@
+var bungalowImg = ["img/sleepRooms/medium/Bungalow-01-medium.jpg", "img/sleepRooms/medium/Bungalow-02-medium.jpg", "img/sleepRooms/medium/Bungalow-03-medium.jpg", "img/sleepRooms/medium/Bungalow-04-medium.jpg", "img/sleepRooms/medium/Bungalow-05-medium.jpg", "img/sleepRooms/medium/Bungalow-06-medium.jpg", "img/sleepRooms/medium/Bungalow-07-medium.jpg", "img/sleepRooms/medium/Bungalow-08-medium.jpg", "img/sleepRooms/medium/Bungalow-09-medium.jpg", "img/sleepRooms/medium/Bungalow-10-medium.jpg"]
 var info = {
     places: [
         {
             headline: "Mac-Attack Hauptspielfeld",
             description: "Hier finden die wichtigsten Mac-Attack spiele statt",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Freizeitanlage/Lightbox/Bild_06.jpg"],
+            img: ["img/importantPlaces/medium/Mac-Attack-01-medium.jpg", "img/importantPlaces/medium/Mac-Attack-02-medium.jpg"],
             konfis: 30,
             ma: null,
             latLng: [
@@ -14,7 +15,7 @@ var info = {
         {
             headline: "Mac-Attack Zweitspielfeld",
             description: "Dieser Platz könnte auch zum Mac-Attack spielen genutzt werden.",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
+            img: ["img/importantPlaces/medium/Mac-Attack2-01-medium.jpg", "img/importantPlaces/medium/Mac-Attack2-02-medium.jpg"],
             konfis: null,
             ma: null,
             latLng: [
@@ -25,7 +26,7 @@ var info = {
         {
             headline: "Aktivhaus/Bowlingbahn",
             description: "Hier finden die wichtigsten Mac-Attack spiele statt",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/5/2/csm_Aussen_01_5edd1c1b5a.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/b/8/csm_Eingang_30313ce847.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/3/8/csm_Bowling_01_c555655521.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Projekthaus/Raum_01.jpg","https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Projekthaus/Raum_02.jpg"],
+            img: ["img/importantPlaces/medium/Aktivhaus-01-medium.jpg", "img/importantPlaces/medium/Aktivhaus-02-medium.jpg", "img/importantPlaces/medium/Aktivhaus-03-medium.jpg", "img/importantPlaces/medium/Aktivhaus-04-medium.jpg"],
             konfis: 30,
             ma: null,
             latLng: [
@@ -36,7 +37,7 @@ var info = {
         {
             headline: "Haus Salzwedel",
             description: "- Unterbringung mit Zwei- bis Vierbettzimmern<br>- Sanitäranlagen auf jeder Etage<br>- Gruppenraum im Dachgeschoss<br>- Baugleich mit \"Haus Stendal\"",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/0/9/csm_Haus_Stendal_Salzwedel_d33b381d58.jpg"],
+            img: ["img/sleepRooms/medium/Salzwedel-01-medium.jpg", "img/sleepRooms/medium/Salzwedel-02-medium.jpg", "img/sleepRooms/medium/Salzwedel-03-medium.jpg", "img/sleepRooms/medium/Salzwedel-04-medium.jpg", "img/sleepRooms/medium/Salzwedel-05-medium.jpg", "img/sleepRooms/medium/Salzwedel-06-medium.jpg", "img/sleepRooms/medium/Salzwedel-07-medium.jpg", "img/sleepRooms/medium/Salzwedel-08-medium.jpg", "img/sleepRooms/medium/Salzwedel-09-medium.jpg", "img/sleepRooms/medium/Salzwedel-10-medium.jpg", "img/sleepRooms/medium/Salzwedel-11-medium.jpg",],
             konfis: 56,
             ma: 4,
             latLng: [
@@ -47,7 +48,7 @@ var info = {
         {
             headline: "Haus Stendal",
             description: "- Unterbringung mit Zwei- bis Vierbettzimmern<br>- Sanitäranlagen auf jeder Etage<br>- Gruppenraum im Dachgeschoss<br>- Baugleich mit \"Haus Salzwedel\"",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/0/9/csm_Haus_Stendal_Salzwedel_d33b381d58.jpg"],
+            img: ["img/sleepRooms/medium/Salzwedel-01-medium.jpg", "img/sleepRooms/medium/Salzwedel-02-medium.jpg", "img/sleepRooms/medium/Salzwedel-03-medium.jpg", "img/sleepRooms/medium/Salzwedel-04-medium.jpg", "img/sleepRooms/medium/Salzwedel-05-medium.jpg", "img/sleepRooms/medium/Salzwedel-06-medium.jpg", "img/sleepRooms/medium/Salzwedel-07-medium.jpg", "img/sleepRooms/medium/Salzwedel-08-medium.jpg", "img/sleepRooms/medium/Salzwedel-09-medium.jpg", "img/sleepRooms/medium/Salzwedel-10-medium.jpg", "img/sleepRooms/medium/Salzwedel-11-medium.jpg",],
             konfis: 56,
             ma: 4,
             latLng: [
@@ -57,19 +58,19 @@ var info = {
         },
         {
             headline: "Bühne",
-            description: "###PLATZHALTER###",
-            img: ["./img/importantPlaces/medium/Bühne-01-medium.jpg", "./img/importantPlaces/medium/Bühne-02-medium.jpg"],
+            description: "Die Bühne für die Abendandachten und Showtimes",
+            img: ["img/importantPlaces/medium/Bühne-01-medium.jpg", "img/importantPlaces/medium/Bühne-02-medium.jpg", "img/importantPlaces/medium/Bühne-03-medium.jpg", "img/importantPlaces/medium/Bühne-04-medium.jpg"],
             konfis: 300,
             ma: null,
             latLng: [
-                [52.8860500, 11.5043773], [52.8861080, 11.5044369], [52.8860258, 11.5046569], [52.8859678, 11.5045974]
+                [52.8859520, 11.5042117], [52.8861081, 11.5044364], [52.8860252, 11.5046556], [52.8858508, 11.5044880]
             ],
             color: "black"
         },
         {
             headline: "Waschräume",
             description: "Waschräume für die Sommerhütten im Kiefernwald.<br>Getrennte Bereiche für Mitarbeitende vorhanden",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Duschhaus.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Duschen.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Toiletten.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Duschen_Betreuer.jpg"],
+            img: ["img/importantPlaces/medium/Waschraum-02-medium.jpg", "img/importantPlaces/medium/Waschraum-01-medium.jpg", "img/importantPlaces/medium/Waschraum-03-medium.jpg", "img/importantPlaces/medium/Waschraum-04-medium.jpg"],
             konfis: null,
             ma: null,
             latLng: [
@@ -80,7 +81,7 @@ var info = {
         {
             headline: "Freizeitzentrum",
             description: "Zwei Gruppenräume",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Freizeitanlage/Lightbox/Bild_02.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/1/4/csm_Freizeithaus_b7db576f03.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/2/b/csm_Seminark%C3%BCche_9ad48d5839.jpg"],
+            img: ["img/importantPlaces/medium/Freizeitzentrum-01-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-02-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-03-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-04-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-05-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-06-medium.jpg", "img/importantPlaces/medium/Freizeitzentrum-07-medium.jpg"],
             konfis: 30,
             ma: null,
             latLng: [
@@ -91,7 +92,7 @@ var info = {
         {
             headline: "Turmhaus",
             description: "Zwei große Gruppenräume/Aktivräume",
-            img: ["./img/importantPlaces/medium/Turmhaus-01-medium.jpg"],
+            img: ["img/importantPlaces/medium/Turmhaus-01-medium.jpg", "img/importantPlaces/medium/Turmhaus-02-medium.jpg", "img/importantPlaces/medium/Turmhaus-03-medium.jpg", "img/importantPlaces/medium/Turmhaus-04-medium.jpg", "img/importantPlaces/medium/Turmhaus-05-medium.jpg", "img/importantPlaces/medium/Turmhaus-06-medium.jpg", "img/importantPlaces/medium/Turmhaus-07-medium.jpg"],
             konfis: 30,
             ma: null,
             latLng: [
@@ -102,7 +103,7 @@ var info = {
         {
             headline: "Haus Altmark",
             description: "- Unterkunft mit Sanitäranlagen auf den Zimmern<br>- Gruppenraum auf jeder Etage<br>- Spielekeller mit Kicker, Billard, etc.",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/f/a/csm_HausAltmark_00097afc5c.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Haus_Altmark/Zimmer.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/b/0/csm_Bad_01_b72a8f8b24.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Spielekeller.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Spielekeller_2.JPG"],
+            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Haus_Altmark/Zimmer.jpg", "https://kiez-arendsee.de/fileadmin/_processed_/b/0/csm_Bad_01_b72a8f8b24.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Haus_III_Clubraum.JPG", "img/importantPlaces/medium/Altmark-04-medium.jpg", "img/importantPlaces/medium/Altmark-05-medium.jpg"],
             konfis: 120,
             ma: 34,
             latLng: [
@@ -112,9 +113,9 @@ var info = {
         },
         {
             headline: "Speisesaal",
-            description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
-            konfis: 30,
+            description: "Der Speisesaal besteht aus einem großen Saal, dem Fischerzimmer und dem Waldzimmer. Das Fischerzimmer wird als MA-Bereich genutzt, dort können also auch Mitarbeitende ohne Gemeinde essen.",
+            img: ["img/importantPlaces/medium/Speisesaal-01-medium.jpg", "img/importantPlaces/medium/Speisesaal-02-medium.jpg", "img/importantPlaces/medium/Speisesaal-03-medium.jpg", "img/importantPlaces/medium/Speisesaal-04-medium.jpg", "img/importantPlaces/medium/Speisesaal-05-medium.jpg", "img/importantPlaces/medium/Speisesaal-06-medium.jpg", "img/importantPlaces/medium/Speisesaal-07-medium.jpg"],
+            konfis: 250,
             ma: null,
             latLng: [
                 [52.8872899, 11.5042953], [52.8875188, 11.5043853], [52.8874039, 11.5050666], [52.8871873, 11.5049713], [52.8872238, 11.5047434], [52.8872753, 11.5044219]
@@ -123,8 +124,8 @@ var info = {
         },
         {
             headline: "Sport- und Spieltenne",
-            description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
+            description: "In der Sport- und Spieltenne befindet sich eine Turnhalle und ein Squash-Court. Außerdem ist hier die Rezeption.",
+            img: ["img/importantPlaces/medium/Tenne-02-medium.jpg", "img/importantPlaces/medium/Tenne-01-medium.jpg", "img/importantPlaces/medium/Tenne-03-medium.jpg", "img/importantPlaces/medium/Tenne-04-medium.jpg", "img/importantPlaces/medium/Tenne-05-medium.jpg", "img/importantPlaces/medium/Tenne-06-medium.jpg", "img/importantPlaces/medium/Tenne-07-medium.jpg"],
             konfis: 30,
             ma: null,
             latLng: [
@@ -135,7 +136,7 @@ var info = {
         {
             headline: "Sommerhütte 1",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -146,7 +147,7 @@ var info = {
         {
             headline: "Sommerhütte 2",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -157,7 +158,7 @@ var info = {
         {
             headline: "Sommerhütte 3",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -168,7 +169,7 @@ var info = {
         {
             headline: "Sommerhütte 4",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -179,7 +180,7 @@ var info = {
         {
             headline: "Sommerhütte 5",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -190,7 +191,7 @@ var info = {
         {
             headline: "Sommerhütte 6",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -201,7 +202,7 @@ var info = {
         {
             headline: "Sommerhütte 7",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -212,7 +213,7 @@ var info = {
         {
             headline: "Sommerhütte 8",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -223,7 +224,7 @@ var info = {
         {
             headline: "Sommerhütte 9",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -234,7 +235,7 @@ var info = {
         {
             headline: "Sommerhütte 10",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -245,7 +246,7 @@ var info = {
         {
             headline: "Sommerhütte 11",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -256,7 +257,7 @@ var info = {
         {
             headline: "Sommerhütte 12",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -267,7 +268,7 @@ var info = {
         {
             headline: "Sommerhütte 13",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -278,7 +279,7 @@ var info = {
         {
             headline: "Sommerhütte 14",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -289,7 +290,7 @@ var info = {
         {
             headline: "Sommerhütte 15",
             description: "",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Ansicht_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Sitzecke.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_01.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Kiefernwald/Liegewiese_02.jpg"],
+            img: ["img/sleepRooms/medium/Sommerhütte-01-medium.jpg", "img/sleepRooms/medium/Sommerhütte-02-medium.jpg", "img/sleepRooms/medium/Sommerhütte-03-medium.jpg", "img/sleepRooms/medium/Sommerhütte-04-medium.jpg", "img/sleepRooms/medium/Sommerhütte-05-medium.jpg", "img/sleepRooms/medium/Sommerhütte-06-medium.jpg", "img/sleepRooms/medium/Sommerhütte-07-medium.jpg", "img/sleepRooms/medium/Sommerhütte-08-medium.jpg", "img/sleepRooms/medium/Sommerhütte-09-medium.jpg", "img/sleepRooms/medium/Sommerhütte-10-medium.jpg",],
             konfis: 12,
             ma: null,
             latLng: [
@@ -300,7 +301,7 @@ var info = {
         {
             headline: "Bungalow 16",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/2/f/csm_Aussenansicht_bb6fe03d38.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowWald-01-medium.jpg", "img/sleepRooms/medium/BungalowWald-02-medium.jpg", "img/sleepRooms/medium/BungalowWald-03-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -311,7 +312,7 @@ var info = {
         {
             headline: "Bungalow 17",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/2/f/csm_Aussenansicht_bb6fe03d38.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowWald-01-medium.jpg", "img/sleepRooms/medium/BungalowWald-02-medium.jpg", "img/sleepRooms/medium/BungalowWald-03-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -322,7 +323,7 @@ var info = {
         {
             headline: "Bungalow 18",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/2/f/csm_Aussenansicht_bb6fe03d38.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowWald-01-medium.jpg", "img/sleepRooms/medium/BungalowWald-02-medium.jpg", "img/sleepRooms/medium/BungalowWald-03-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -333,7 +334,7 @@ var info = {
         {
             headline: "Bungalow 19",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/2/f/csm_Aussenansicht_bb6fe03d38.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowWald-01-medium.jpg", "img/sleepRooms/medium/BungalowWald-02-medium.jpg", "img/sleepRooms/medium/BungalowWald-03-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -344,7 +345,7 @@ var info = {
         {
             headline: "Bungalow 20",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/e/a/csm_Hasenberg_3df1aa1262.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowHügel-02-medium.jpg", "img/sleepRooms/medium/BungalowHügel-03-medium.jpg", "img/sleepRooms/medium/BungalowHügel-01-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -355,7 +356,7 @@ var info = {
         {
             headline: "Bungalow 21",
             description: "- 4 Schlafräume mit 4-5 Betten<br>- Aufenthaltsraum<br>- Sanitäranlagen im Bungalow",
-            img: ["https://kiez-arendsee.de/fileadmin/_processed_/e/a/csm_Hasenberg_3df1aa1262.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_Aufenthaltraum.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Schlafzimmer.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Bungalow_WC.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/zweite_Dusche.jpg", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Haeuser/Birkenwald/WC.jpg"],
+            img: ["img/sleepRooms/medium/BungalowHügel-02-medium.jpg", "img/sleepRooms/medium/BungalowHügel-03-medium.jpg", "img/sleepRooms/medium/BungalowHügel-01-medium.jpg",].concat(bungalowImg),
             konfis: 15,
             ma: 4,
             latLng: [
@@ -365,9 +366,9 @@ var info = {
         },
         {
             headline: "Grillscheune",
-            description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
-            konfis: 30,
+            description: "",
+            img: ["img/importantPlaces/medium/Grillscheune-02-medium.jpg", "img/importantPlaces/medium/Grillscheune-01-medium.jpg", "img/importantPlaces/medium/Grillscheune-03-medium.jpg", "img/importantPlaces/medium/Grillscheune-04-medium.jpg"],
+            konfis: null,
             ma: null,
             latLng: [
                 [52.8874895, 11.5036911], [52.8876032, 11.5036390], [52.8876562, 11.5039565], [52.8876041, 11.5039804], [52.8876374, 11.5041803], [52.8875758, 11.5042085]
@@ -376,8 +377,8 @@ var info = {
         },
         {
             headline: "MA-Bereich (Fischerzimmer)",
-            description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
+            description: "Hier wollen wir den MA-Bereich einrichten. Zu den Essenszeiten können hier auch Mitarbeitende ohne Gemeinde essen.",
+            img: ["img/importantPlaces/medium/Fischerzimmer-01-medium.jpg", "img/importantPlaces/medium/Fischerzimmer-02-medium.jpg"],
             konfis: null,
             ma: null,
             latLng: [
@@ -387,8 +388,8 @@ var info = {
         },
         {
             headline: "Büro (Kaminzimmer)",
-            description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
+            description: "Hier wird das Büro aufgebaut.",
+            img: ["img/importantPlaces/medium/Kaminzimmer-01-medium.jpg", "img/importantPlaces/medium/Kaminzimmer-02-medium.jpg", "img/importantPlaces/medium/Kaminzimmer-03-medium.jpg", "img/importantPlaces/medium/Kaminzimmer-04-medium.jpg"],
             konfis: null,
             ma: null,
             latLng: [
@@ -398,7 +399,7 @@ var info = {
         },
         {
             headline: "Infopoint",
-            description: "Hier wollen wir das Zelt für den Infopoint aufbauen",
+            description: "Hier wollen wir das Zelt für den Infopoint aufbauen.",
             img: [],
             konfis: null,
             ma: null,
@@ -410,7 +411,7 @@ var info = {
         {
             headline: "Pit-Pat Anlage",
             description: "Eine Billiard-Minigolf Anlage",
-            img: ["https://kiez-arendsee.de/fileadmin/user_upload/PitPat2.JPG", "https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_2021/Pit_Pat.JPG"],
+            img: ["img/importantPlaces/medium/Pitpat-01-medium.jpg"],
             konfis: 15,
             ma: null,
             latLng: [
@@ -421,18 +422,18 @@ var info = {
         {
             headline: "Beachvolleyballfeld",
             description: "Zwei Beachvolleyballfelder",
-            img: ["https://kiez-arendsee.de/fileadmin/files/kiez-arendsee/Bilder_Freizeitanlage/Lightbox/Bild_43.jpg"],
+            img: ["img/importantPlaces/medium/Volleyball-01-medium.jpg", "img/importantPlaces/medium/Volleyball-02-medium.jpg"],
             konfis: null,
             ma: null,
             latLng: [
-                [52.8866802, 11.5045999],  [52.8868971, 11.5046954],  [52.8868511, 11.5049826],  [52.8866342, 11.5048871]
+                [52.8866802, 11.5045999], [52.8868971, 11.5046954], [52.8868511, 11.5049826], [52.8866342, 11.5048871]
             ],
             color: "red"
         },
         {
             headline: "###PLATZHALTER###",
             description: "###PLATZHALTER###",
-            img: ["./img/sleepRooms/platzhalter.png", "./img/sleepRooms/platzhalter.png"],
+            img: ["img/sleepRooms/platzhalter.png", "img/sleepRooms/platzhalter.png"],
             konfis: 30,
             ma: null,
             latLng: [
